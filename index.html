@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="./dist/output.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+    <!--header-->
+    <section>
+      <div class="bg-header-image bg-cover bg-center h-screen ">
+        <div class="flex justify-between items-center px-10 py-6">
+          <!--logo-->
+          <img src="images/logo.svg" alt="logo" class="w-36 h-auto">
+          <!--navbarın sağ kısmı-->
+          <div class="flex gap-x-7 items-center text-white font-semibold">
+
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+
+          <button class="bg-white text-black px-5 py-2 rounded-full font-bold">Contact</button>
+        </div> 
+        </div>
+        <!--we are creatives yazısı-->
+        <div class="flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center -space-y-6">
+          <h1 class="text-white font-bold text-5xl">WE ARE CREATIVES</h1>
+          <img src="images/icon-arrow-down.svg" alt="arrow" class="w-8 h-auto pt-20 pb-0">
+        </div>
+      </div>  
+    </section>
+
+    <!--2. part yazı ve yumurta görseli-->
+    <section class="flex h-screen">
+      <!--yazı-->
+      <div class="w-1/2 bg-beige flex items-center justify-center">
+        <div class="max-w-md text-left px-6">
+          <h1 class="text-4xl font-black font-serif mb-6">Transform your brand</h1>
+          <p class="text-gray-500 mb-6 font-sans font-medium">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#" class="uppercase text-black font-serif font-extrabold text-sm underline decoration-4
+          decoration-yellow-400 underline-offset-4">Learn More</a>
+        </div>
+      </div>
+      <!--foto-->
+      <div class="w-1/2">
+        <img src="images/desktop/image-transform.jpg" alt="egg" class="w-full h-full object-cover">
+      </div>
+  </section>
+
+  <!--3.part yazı ve pembe kadeh-->
+  <section class="flex h-screen">
+    <!--foto-->
+    <div class="w-1/2">
+      <img src="images/desktop/image-stand-out.jpg" alt="image-stand-out" class="w-full h-full object-cover">
+    </div>
+    <!--yazı-->
+    <div class="w-1/2 bg-beige flex items-center justify-center">
+      <div class="max-w-md text-left px-6">
+        <h1 class="text-4xl font-black font-serif mb-6">Stand out to the right audience</h1>
+        <p class="text-gray-400 mb-6 font-sans font-medium">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+        <a href="#" class="uppercase text-black font-serif font-extrabold text-sm underline decoration-4
+          decoration-red-400 underline-offset-4">Learn More</a>
+      </div>
+     </div>
+  </section>
+
+  <!--ikili foto-->
+  <section class="flex flex-col md:flex-row h-screen">
+    <!--cherry-->
+    <div class="bg-cherry-image bg-cover bg-center w-full md:w-1/2 flex flex-col
+    justify-end items-center text-dark-cyan p-8">
+    <!--yazı-->
+    <div class="max-w-xs pb-10 text-center text-green800">
+      <h2 class="font-serif text-3xl font-extrabold mb-4">Graphic Design</h2>
+      <p class="font-sans text-sm ">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+    </div>
+  </div>
+    <!--orange-->
+    <div class="bg-orange-image bg-cover bg-center w-full md:w-1/2 flex flex-col
+    justify-end items-center text-dark-cyan p-8">
+    <!--yazı-->
+    <div class="text-center pb-10 max-w-xs text-blue-950">
+      <h2 class="text-3xl font-serif font-extrabold mb-4">Photography</h2>
+      <p class="text-sm font-sans"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+    </div>
+  </div>
+  </section>
+
+  <!--client testimonials-->
+    <section class="bg-[#fefaf5] py-24 text-center">
+  <h2 class="text-gray-400 font-bold tracking-widest text-sm mb-16 uppercase">
+    Client Testimonials
+  </h2>
+
+  <div class="flex flex-col md:flex-row justify-center items-stretch gap-12 max-w-6xl mx-auto px-6">
+    
+    <!-- 1. Kutu -->
+    <div class="flex flex-col justify-between items-center text-center max-w-sm mx-auto min-h-[340px]">
+      <div>
+        <img src="images/image-emily.jpg" alt="Emily" class="w-16 h-16 rounded-full mb-6 mx-auto">
+        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+      </div>
+      <div>
+        <p class="font-bold text-sm text-gray-800 mb-1">Emily R.</p>
+        <p class="text-xs text-gray-400">Marketing Director</p>
+      </div>
+    </div>
+
+    <!-- 2. Kutu -->
+    <div class="flex flex-col justify-between items-center text-center max-w-sm mx-auto min-h-[340px]">
+      <div>
+        <img src="images/image-thomas.jpg" alt="Thomas" class="w-16 h-16 rounded-full mb-6 mx-auto">
+        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+      </div>
+      <div>
+        <p class="font-bold text-sm text-gray-800 mb-1">Thomas S.</p>
+        <p class="text-xs text-gray-400">Chief Operating Officer</p>
+      </div>
+    </div>
+
+    <!-- 3. Kutu -->
+    <div class="flex flex-col justify-between items-center text-center max-w-sm mx-auto min-h-[340px]">
+      <div>
+        <img src="images/image-jennie.jpg" alt="Jennie" class="w-16 h-16 rounded-full mb-6 mx-auto">
+        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+      </div>
+      <div>
+        <p class="font-bold text-sm text-gray-800 mb-1">Jennie F.</p>
+        <p class="text-xs text-gray-400">Business Owner</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+</html>

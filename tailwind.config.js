@@ -16,7 +16,12 @@ module.exports = {
         'header-image': "url('/images/desktop/image-header.jpg')",
         'cherry-image': "url('/images/desktop/image-graphic-design.jpg')",
         'orange-image': "url('/images/desktop/image-photography.jpg')",
-      }
+        'header-mobile': "url('/images/mobile/image-header.jpg')",
+      },
+      fontFamily:{
+        barlow: ['Barlow', 'sans-serif'],
+        fraunces: ['Fraunces', 'serif'],
+      },
     },
   },
   plugins: [],

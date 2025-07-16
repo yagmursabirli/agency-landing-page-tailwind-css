@@ -13,10 +13,10 @@ module.exports = {
         green500: 'hsl(167, 34%, 41%)', // footer 
       },
       backgroundImage:{
-        'header-image': "url('/images/desktop/image-header.jpg')",
-        'cherry-image': "url('/images/desktop/image-graphic-design.jpg')",
-        'orange-image': "url('/images/desktop/image-photography.jpg')",
-        'header-mobile': "url('/images/mobile/image-header.jpg')",
+        'header-image': "url('./images/desktop/image-header.jpg')",
+        'cherry-image': "url('./images/desktop/image-graphic-design.jpg')",
+        'orange-image': "url('./images/desktop/image-photography.jpg')",
+        'header-mobile': "url('./images/mobile/image-header.jpg')",
       },
       fontFamily:{
         barlow: ['Barlow', 'sans-serif'],
